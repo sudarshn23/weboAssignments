@@ -1,0 +1,8 @@
+1) on login popup..diffrent font types
+2) on replay center track/Date & horse has diffrent font types
+3) pp credits download history results show diffrent font tyes
+4) PDF on tracks selection 
+5) pop up on click of Download pp
+6)terms & conditions
+7) footer section on terms & condition
+8) repeat bet \ cancel bet on my wagers

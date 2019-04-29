@@ -1,0 +1,183 @@
+Installation of .apk 
+Verify that link provided contains .apk in downloadable format
+Verify user is able to download app on android OS
+verify that if android version is not supporting the app then it should show error message
+verify that low battery or low speed dosen't fail the app downloading
+verify that user is able to download apk again if mobile gets switch off,network gets off,data connection stops
+verify that proper error massage are getting displayed if connection problem, insufficient memory
+verify that user is able to resume app downloading from the point it stopped after any external inturrption like slow data, network connection problem,low internal memory
+verify that app is taking exact memnory space as mentioned
+verify that app logo is getting displayed properly
+verify that user is able to click on app logo to open the app
+verify app is opening with splash screen
+verify that app behaves same as intended if there is incoming call/sms or any other push message/notification
+verify thast app resumes same after lock and unlocking of screen
+verify the app remains fit in portait and landscape mode
+verify that app look, configuration feel must cordinate dynamically on alternate screen
+verify that on installation app is asking for only permissions that are needed
+verify that app is single touch ang not multi touch
+ensure that app is not consuming more battery/space
+verify that app is still functional when it goes in background
+check the device storage after app is uninstalled to ensure that application data has fully removed
+=========================================================================================================================
+*LOGIN*
+verify that previously registerd user is able to login after entering valid crdentials
+verify that login page is having proper validations,character limit and error messages for login credentials
+verify that user must not be able to login with wrong credentials
+verify that previously registerd email id with diffrent password should not get registerd.
+verify that user is able to navigate to registration page
+verify that user is able to click on forgot password and navigate to forgot password page
+verify that on reset of password user is navigating to login page
+verify that on entering proper email id user is able to get link to reset password/otp on email
+verify that registration page is having proper validations, character limit and error messages
+verify that after entering valid credentials user is able to see and write answer of extra question on new page
+verify that after clicking on submit button of registration page user able tyo navigate dash board
+verify that app is navigating to dash board after entering valid credentials
+===========================================================================================================================
+*Dashboard*
+verify that once logged in user is able to see dashboard evry time on click of app icon in logged in state
+verify that dash board is fit to the users mobile screen and all the fields are visible to the user
+verify my Books,recently saved section is empty for first time user and user who has not subscribed to any book with add book function and start exploring button respectively
+verify quizzes are available in with diffrent catagory sports lable and right to left scrollable and clickable button format
+verify that if any books are subscribed by the user previously are displaying under My Boooks section.
+verify footer section available in clickable format in same order on dashboard with home, My books, quizes, saved and menu icons respectively.
+verify user is navigating on respective page after clicking on footer icon with same footer
+verify that logged in user is able to navigate to add books page on click of add book button
+verify that user is able to download book as many times as he want in pdf format for which he already subscribed
+verify that if user tries to download previous subscribe book and phone memory is not sufficient to download book pdf related message given to user in popup
+verify that user is able to add book from my books section via click on add book button on header
+verify that in any case looged out user should not access on dashboard
+==========================================================================================================================
+*Bookmark*
+verify that only logged in user able to book mark book
+verify that bookmark symbol is getting displayed on each topic or article in clickable format
+verify that on click Bookmark pop up massage comes up with two option skip and save bookmark.
+verify that pop-up contains "Add Title " text field and "Skip" button.to verify that after clicking on the "Skip " button the bookmark will gets saved.
+verify that if user click on close button of pop up it should not get bookmarked
+verify that previously book marked book is available in bookmark section
+verify that previously bookmarked topic/article are able to de select.
+verify that no other book is available in bookmark if not book marked
+============================================================================================================================
+
+*Highlight*
+verify that only logged in user able to highlight book
+to verify that after clicking on Save Hightlight button the word will gets highlighted and color getting changed.
+verify that previously highlighted book is available in bookmark section
+verify that when user want to remove highlight it can be moved to initial state
+verify that after clicking on Highlights tab on dashboard the book contains Highlights will get displayed.
+verify that no other book is available in highlighted section if not book marked or it gets removed if removed highlight.
+=============================================================================================================================== 
+*Add book*
+verify that add book page contains table rows of books accordingly under their respective catagory label
+verify that add book page is scrollable in top to down and bottom up format
+verify that each row is cilckable and user is navigating to respective book with more details like book name,image, published date, book downloading size
+verify that subscribe button is available in clickable format with price in $ on it. ex subscribe for $6.99
+verify that user is able to navigate back to add book page on clicking of back button or close button on header
+Verify that on click of subscibe button app is navigating to external browser on billing page
+verify that user is not able to click subscribe(subscribe button remains disabled)for book which he has previous subscription
+verify that on occuring failed payment/session time out of same book user is able to click on subscribe button again
+verify that add ons can be subscribed if available with book.
+=================================================================================================================================
+*Billing page and order summary check out*
+verify that billing page and check out is availble in three steps
+verify that user is able to navigate back from any of step using back button
+verify that previous step is prefilled with same data which user has entered
+verify that every input value user is entering in all three steps on billing page is in editable format
+verify that once user click on logg out external browser session should also get expired.
+verify the external session dosent get expired if there is incoming call/sms or any other push message/notification
+verify the external session dosent get expired after lock and unlocking of screen
+
+step 1
+verify  that billing page is available with exact matching order summary which user wants to subscribe
+verify that user is able to enter all billing info like firstname,lastname, address,city,country,state,zipcode,email id
+verify that proper validation messages are availble for each field
+verify that after entering compulsory fields properly and on click of continue button 
+verify that without entering of all compulsory fields user should not navigate to contionue button
+
+step 2
+verify that order summary step 2 is showing total value with ordered book with name,unit price,quantity
+verify that check box is availble to order summery as user wants to agree with order deatils message
+verify that submit button remains disable till user check in to check box
+verify that submit button gets enabled once user click into check box
+ 
+step3
+verify step 3 contains order respective book order summary with estimated total and and credit card details on it
+verify that user is able to fill all the details like name on credit card,number,security code,expiration month,year
+verify that Place Order button is disable till user fills all the data
+verify that after all required fields gets filled Place Order button gets enabled
+verify that proper validations are applied on each input value enterd by user
+verify that book getting download and added in my book section on succesful payment via credit card
+verify that on successful order is placed user should navigate to dashboard with the same book in My books section.
+verify that payment session gets expired if user spending so much time without interacting on it.
+
+verify that user is able to log out at any instance from menu button.
+verify that when user click on logg out at any instance session should get expired and previous subscriptions are getting stored and user is navigating to login page.
+verify that at any instance if mobile network goes off/low, data gets slow/off user should get proper error messgae to check data/network connection
+
+verify that when user tries to enter text in any textfield mobile keybord opens up and should not hide that textfield.
+======================================================================================================================================
+
+OS Upgrade Testing
+verify the app is working successfully in diffrent upgraded OS.
+verify that app supports below versions that on it inted to.(Forward and backeword compatibility testing)
+verify application performance is improved and app is not getting crashed due to os upgrade
+verify app UI is working as expected in look and feel for end user
+verify that app's data retention/revcovery as in whatever preferences the user has saved in the previous android OS version should be retained when he upgrades the OS.
+=========================================================================================================
+App version upgrade testing
+verify that app version update is happening manually or forcefully
+verify that the app is working successfully after app version upgrade
+verify application performance is improved and app is not getting crashed due to version upgrade
+verify app UI is working as expected in look and feel for end user
+verify new features are visible and user is able to use them after app gets upgrade
+verify the API response when user is using previous version
+Verify according to match of Apk version found then user gets auto suggest/force update
+Verify logged in/logged out user is able to update the app 
+Verify that user is not connected to network and in app is in offline mode then it should use previous user 
+verify that app's data retention/revcovery as in whatever preferences the user has saved in the previous version should be retained when he upgrades the app.
+
+==========================================================================================================
+
+OTP Login
+
+Provide an invalid Phone Number or E-Mail address and submit the OTP. Check the validation.
+verify that is received only on registered Mobile Number / E-mail Address.
+verify that OTP should be generated within time period.
+verify the limitations of number of OTP generation for single authentication.
+verify network delay for expiry of One-Time Password.
+Verify that once used OTP, it should not be allowed to use again.
+verify that once new OTP is sent the old one is not acceptable.
+Verify that once expired, it should not be used for any authentication.
+Verify that resend OTP functionality is working properly.
+Verify for Case Sensitiveness of OTP while entered by user.
+Check for types of characters and character limit OTP supports: Only Digits, Only Alphabets, Alphanumeric
+verify that after multiple invalid try, verify that system temporarily blocks the account.
+
+============================================================================================================ 
+
+Location Based search like swiggy
+
+check that mobile GPS is turned on/off
+verify that app is suggesting to GPS on if it is off.
+When you test your app, make sure the location it displays is accurate.
+Test location features by keeping your device in airplane mode.
+Check your app behaviour when power saving mode is on as some devices have power saving mode. This may affect GPS. 
+Turn GPS off and verify app behaviour. Also, try using your app when WiFi and other data connections are off.Then try combination of GPS, WiFi and data connections toggles to test whether app can handle all scenarios successfully.
+Use location faking tools to test your app in a location where your intended user base would be using the app. Fake GPS Location and Lockito are some location faking apps for Android.
+Test your app by remaining stationery and while on the move. Verify app is able to track your location properly.
+Check that your app is able to handle interruptions(Eg. call, SMS, notifications, signal drop, connection outage etc.) properly while using location aware features.
+If possible, conduct field tests. Test your app from locations where GPS reception is good (Eg. open space, plaza), moderate (Eg. crowded place, moving train) and poor (Eg. tunnel, building).
+verify, simultaneously keep track of device power consumption. Your app shouldn’t degrade to device’s battery life.
+Test with outdated Maps(Eg. Google Maps, Apple Maps) software.
+Test your app in different network conditions (Eg. 2G, 3G, LTE, WiFi).
+verify that app is giving auto suggestions based on your current location
+verify that on search is getting displayed according nearer to longest distance 
+==============================================================================================================
+
+
+
+
+
+
+
+ 

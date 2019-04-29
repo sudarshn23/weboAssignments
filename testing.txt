@@ -1,0 +1,46 @@
+Test life cycle
+Bug life cycle
+Test Scenario
+Test Cases
+entry criteria,exit critera
+Test coverage
+-Stataement Coverage
+-Branch Coverage
+Test Instances(Test/Dev,Stage/Demo,Prod)
+Testrail
+Test Execution report
+UI Testing
+Functional Testing
+Mobile build installation iOS/Android
+app version update
+
+
+Smoke Test
+Sanity Test
+Retesting
+Regression check list
+Responsive Testing
+Cross Browser Testing
+Estimation
+
+JIRA
+-bug
+-task
+-story
+-improvement
+-use cases
+-epic
+-priority(low,high,medium)
+-create & assign a ticket
+
+QA sign off report
+Deployment
+
+Agile Methodology
+-scrum
+-sprint
+-Sprint planning meeting
+-sprint review meet
+-bugs
+-Basecamp(Doubt- client interaction)
+
